@@ -1,4 +1,4 @@
-ALTER SESSION SET "_ORACLE_SCRIPT"=true;
+﻿ALTER SESSION SET "_ORACLE_SCRIPT"=true;
 
 ALTER SESSION SET NLS_DATE_FORMAT='YYYY-MM-DD HH24:MI:SS' NLS_TIMESTAMP_FORMAT='YYYY-MM-DD HH24:MI:SSXFF' NLS_TIMESTAMP_TZ_FORMAT='YYYY-MM-DD HH24:MI:SSXFF TZH:TZM';
 
@@ -1131,27 +1131,27 @@ INSERT INTO S02.ITEM_COMPANIES (ITEM_ID, COMPANY_ID) VALUES (4, 15);
 INSERT INTO S02.ITEM_COMPANIES (ITEM_ID, COMPANY_ID) VALUES (4, 16);
 INSERT INTO S02.ITEM_COMPANIES (ITEM_ID, COMPANY_ID) VALUES (4, 17);
 
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (1, '2023-01-10', 1, 1, 1, 200000, NULL, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (2, '2023-01-10', 1, 2, 8, NULL, 50000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (3, '2023-01-31', 1, 3, NULL, NULL, 85000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (4, '2023-01-31', 1, 4, 16, NULL, 15000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (5, '2023-01-31', 1, 4, 17, NULL, 15000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (6, '2023-02-10', 1, 1, 1, 300000, NULL, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (7, '2023-02-10', 1, 1, 2, 100000, NULL, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (8, '2023-02-10', 1, 2, 9, NULL, 50000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (9, '2023-02-10', 1, 2, 8, NULL, 100000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (10, '2023-02-28', 1, 3, NULL, NULL, 85000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (11, '2023-02-28', 1, 4, 16, NULL, 15000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (12, '2023-02-28', 1, 4, 17, NULL, 15000, 1);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (13, '2023-03-10', 1, 1, 1, 300000, NULL, 0);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (14, '2023-03-10', 1, 1, 2, 200000, NULL, 0);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (15, '2023-03-10', 1, 1, 3, 100000, NULL, 0);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (16, '2023-03-15', 1, 4, 15, NULL, 100000, NULL);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (17, '2023-03-31', 1, 3, NULL, NULL, 170000, NULL);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (18, '2023-03-31', 1, 4, 16, NULL, 30000, NULL);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (19, '2023-03-31', 1, 4, 17, NULL, 30000, NULL);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (20, '2023-03-31', 1, 2, 9, NULL, 50000, NULL);
-INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (21, '2023-03-31', 1, 2, 8, NULL, 100000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (1, '2024-01-10', 1, 1, 1, 200000, NULL, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (2, '2024-01-10', 1, 2, 8, NULL, 50000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (3, '2024-01-31', 1, 3, NULL, NULL, 85000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (4, '2024-01-31', 1, 4, 16, NULL, 15000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (5, '2024-01-31', 1, 4, 17, NULL, 15000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (6, '2024-02-10', 1, 1, 1, 300000, NULL, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (7, '2024-02-10', 1, 1, 2, 100000, NULL, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (8, '2024-02-10', 1, 2, 9, NULL, 50000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (9, '2024-02-10', 1, 2, 8, NULL, 100000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (10, '2024-02-28', 1, 3, NULL, NULL, 85000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (11, '2024-02-28', 1, 4, 16, NULL, 15000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (12, '2024-02-28', 1, 4, 17, NULL, 15000, 1);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (13, '2024-03-10', 1, 1, 1, 300000, NULL, 0);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (14, '2024-03-10', 1, 1, 2, 200000, NULL, 0);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (15, '2024-03-10', 1, 1, 3, 100000, NULL, 0);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (16, '2024-03-15', 1, 4, 15, NULL, 100000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (17, '2024-03-31', 1, 3, NULL, NULL, 170000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (18, '2024-03-31', 1, 4, 16, NULL, 30000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (19, '2024-03-31', 1, 4, 17, NULL, 30000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (20, '2024-03-31', 1, 2, 9, NULL, 50000, NULL);
+INSERT INTO S02.CASHBOOK (ID, DATE, ACCOUNT_ID, ITEM_ID, COMPANY_ID, DEBIT, CREDIT, CHECKED) VALUES (21, '2024-03-31', 1, 2, 8, NULL, 100000, NULL);
 
 INSERT INTO XLS.OBJECTS (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES ('S02', 'VIEW_CASHBOOK', 'VIEW', NULL, 'S02.VIEW_CASHBOOK', 'S02.VIEW_CASHBOOK', 'S02.VIEW_CASHBOOK');
 INSERT INTO XLS.OBJECTS (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES ('S02', 'USP_CASHBOOK', 'PROCEDURE', NULL, 'S02.CASHBOOK', 'S02.CASHBOOK', 'S02.CASHBOOK');
@@ -2308,14 +2308,14 @@ usp_cashbook=S02.USP_CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":
 usp_cashbook2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2"}
 usp_cashbook3=S02.USP_CASHBOOK3,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook3"}
 usp_cashbook4=S02.USP_CASHBOOK4,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook4"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months"}', 'S02');
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months"}', 'S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User2 (Restricted).xlsx', 'https://www.savetodb.com/downloads/v10/sample02-user2.xlsx','cashbook=S02.CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"cashbook"}
 view_cashbook=S02.VIEW_CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"view_cashbook"}
 usp_cashbook=S02.USP_CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook"}
 usp_cashbook2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2"}
 usp_cashbook3=S02.USP_CASHBOOK3,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook3"}
 usp_cashbook4=S02.USP_CASHBOOK4,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook4"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months"}', 'S02');
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months"}', 'S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (SaveToDB Framework).xlsx', 'https://www.savetodb.com/downloads/v10/sample02-user3.xlsx',
 'cashbook=S02.CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"cashbook"}
 view_cashbook=S02.VIEW_CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"view_cashbook"}
@@ -2327,43 +2327,43 @@ usp_cashbook3=S02.USP_CASHBOOK3,(Default),False,$B$3,,{"Parameters":{"account_id
 usp_cashbook4=S02.USP_CASHBOOK4,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook4"}
 usp_cashbook5=S02.USP_CASHBOOK5,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"usp_cashbook5"}
 code_cashbook=S02.CODE_CASHBOOK,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null},"ListObjectName":"code_cashbook"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months"}
 objects=XLS.OBJECTS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","TABLE_NAME":null,"TABLE_TYPE":null},"ListObjectName":"objects"}
 handlers=XLS.HANDLERS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","EVENT_NAME":null,"HANDLER_TYPE":null},"ListObjectName":"handlers"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"en"},"ListObjectName":"translations"}
 workbooks=XLS.WORKBOOKS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02"},"ListObjectName":"workbooks"}', 'S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-en.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"en"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"en"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"en"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"en"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"en"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Chinese Simplified).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-zh-hans.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"zh-hans"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Chinese Traditional).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-zh-hant.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"zh-hant"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, French).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-fr.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"fr"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"fr"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"fr"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"fr"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"fr"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, German).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-de.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"de"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"de"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"de"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"de"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"de"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Italian).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-it.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"it"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"it"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"it"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"it"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"it"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Japanese).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ja.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"ja"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ja"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ja"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"ja"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ja"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Korean).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ko.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"ko"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ko"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ko"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"ko"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ko"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Portuguese).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-pt.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"pt"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"pt"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"pt"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"pt"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"pt"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Russian).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ru.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"ru"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ru"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ru"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"ru"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ru"}','S02');
 INSERT INTO XLS.WORKBOOKS (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Spanish).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-es.xlsx','USP_CASHBOOK2=S02.USP_CASHBOOK2,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"usp_cashbook2","UseTranslatedName":true,"WorkbookLanguage":"es"}
-cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"es"}
+cash_by_months=S02.USP_CASH_BY_MONTHS,(Default),False,$B$3,,{"Parameters":{"year":2024},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"es"}
 translations=S02.VIEW_TRANSLATIONS,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"S02","LANGUAGE_NAME":"es"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"es"}','S02');
 
 prompt Application installed
